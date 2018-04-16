@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Scope+One|Trocchi");
+@import url("https://fonts.googleapis.com/css?family=Tangerine");
 
 /*
 	Urban by TEMPLATED
@@ -1591,7 +1592,7 @@
 
 	body, input, select, textarea {
 		font-family: "Scope One", serif;
-		font-size: 13pt;
+		font-size: 15pt;
 		font-weight: 300;
 		line-height: 1.65;
 	}
@@ -1599,7 +1600,7 @@
 		@media screen and (max-width: 1680px) {
 
 			body, input, select, textarea {
-				font-size: 11pt;
+				font-size: 12pt;
 			}
 
 		}
@@ -1607,7 +1608,7 @@
 		@media screen and (max-width: 1280px) {
 
 			body, input, select, textarea {
-				font-size: 11pt;
+				font-size: 12pt;
 			}
 
 		}
@@ -1623,7 +1624,7 @@
 		@media screen and (max-width: 736px) {
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 13pt;
 			}
 
 		}
@@ -1631,7 +1632,7 @@
 		@media screen and (max-width: 480px) {
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 13pt;
 			}
 
 		}
@@ -1729,7 +1730,7 @@
 	}
 
 	h6 {
-		font-size: 0.7em;
+		font-size: 0.8em;
 	}
 
 	sub {
@@ -1962,7 +1963,7 @@
 	input[type="button"],
 	button,
 	.button {
-		background-color: #3498db;
+		background-color: #492a13;
 		color: #fff !important;
 	}
 
@@ -2941,7 +2942,7 @@
 			.wrapper.style1 input[type="button"],
 			.wrapper.style1 button,
 			.wrapper.style1 .button {
-				background-color: #3498db;
+				background-color: #492a13;
 				color: #fff !important;
 			}
 
@@ -3107,8 +3108,8 @@
 			}
 
 		.wrapper.style2 {
-			background-color: #3498db;
-			color: #aed6f1;
+			background-color: #492a13;
+			color: #f1ceae;
 		}
 
 			.wrapper.style2 input, .wrapper.style2 select, .wrapper.style2 textarea {
@@ -3154,7 +3155,7 @@
 			.wrapper.style2 button,
 			.wrapper.style2 .button {
 				background-color: #fff;
-				color: #3498db !important;
+				color: #492a13 !important;
 			}
 
 				.wrapper.style2 input[type="submit"].alt,
@@ -3319,7 +3320,7 @@
 			}
 
 			.wrapper.style2 .image {
-				box-shadow: 0px 0px 0px 7px #3498db, 0px 0px 0px 8px rgba(255, 255, 255, 0.25);
+				box-shadow: 0px 0px 0px 7px #8B4513, 0px 0px 0px 8px rgba(255, 255, 255, 0.25);
 			}
 
 		@media screen and (max-width: 1280px) {
@@ -3427,11 +3428,11 @@
 
 			#header > .logo a {
 				font-size: 1.25em;
-				color: #3498db;
+				color: #8B4513;
 			}
 
 				#header > .logo a:hover {
-					color: #3498db;
+					color: #8B4513;
 				}
 
 			#header > .logo span {
@@ -3453,7 +3454,7 @@
 		}
 
 			#header > a:hover {
-				color: #3498db;
+				color: #492a13;
 			}
 
 			#header > a[href="#menu"] {
@@ -3613,7 +3614,7 @@
 					}
 
 					#menu > ul.links > li:hover {
-						color: #3498db;
+						color: #492a13;
 					}
 
 					#menu > ul.links > li:first-child > a:not(.button) {
@@ -3657,7 +3658,7 @@
 			}
 
 			#menu .close:hover {
-				color: #3498db;
+				color: #492a13;
 			}
 
 			@media screen and (max-width: 736px) {
@@ -3776,9 +3777,10 @@
 		}
 
 		#banner h1 {
-			font-size: 4em;
+			font-size: 7em;
 			margin-bottom: .25em;
 			color: #FFF;
+      font-family: Tangerine;
 		}
 
 		#banner-contact h1 {
@@ -3853,7 +3855,7 @@
 			background-color: #000;
 			height: 100%;
 			left: 0;
-			opacity: 0.35;
+			opacity: 0.45;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -3892,14 +3894,9 @@
 				font-size: .85em;
 			}
 
-				#banner br {
-					display: none;
-				}
-
-				#banner-contact br {
-					display: none;
-				}
-
+      #banner br {
+        display: none;
+      }
 		}
 
 		@media screen and (max-width: 736px) {
@@ -3925,7 +3922,7 @@
 
 
 				#banner h1 {
-					font-size: 1.75em;
+					font-size: 4.75em;
 					margin-bottom: 0.5em;
 					padding-bottom: 0;
 				}
