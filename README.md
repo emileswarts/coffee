@@ -1,1 +1,7 @@
-https://www.pexels.com/search/coffee/
+# Rosarios Coffee Dot Com
+
+## Deploy
+
+```
+./deploy
+```
