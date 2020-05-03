@@ -2,14 +2,7 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Scope+One|Trocchi");
 @import url("https://fonts.googleapis.com/css?family=Tangerine");
-
-/*
-	Urban by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
-
-/* Reset */
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
@@ -49,6 +42,38 @@
 	body {
 		-webkit-text-size-adjust: none;
 	}
+  .machine-slider-image img {
+      margin: 0 auto;
+  }
+
+  .machine-slider-image {
+      text-align: center;
+  }
+
+	@media screen and (max-width: 1280px) {
+  .machine-slider-image img {
+      width: 85%;
+  }
+  }
+
+  .slick-prev {
+      float: left;
+      margin-left: 30px;
+
+  }
+
+  .slick-next {
+      float: right;
+      margin-right: 30px;
+
+  }
+
+	/* @media screen and (max-width: 520px) { */
+  /*     .machine-slider-image { */
+  /*         width: 100%; */
+  /*         margin: 0 auto; */
+  /*     } */
+  /* } */
 
 /* Box Model */
 
@@ -1657,7 +1682,7 @@
 		margin: 0 0 2em 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h2, h3, h4, h5, h6 {
 		font-weight: 700;
 		line-height: 1.5;
 		margin: 0 0 0.4em 0;
@@ -2015,31 +2040,6 @@
 			button.alt.icon:before,
 			.button.alt.icon:before {
 				color: #bfbfbf;
-			}
-
-		input[type="submit"].special,
-		input[type="reset"].special,
-		input[type="button"].special,
-		button.special,
-		.button.special {
-			background-color: #fafafa;
-			color: #000 !important;
-		}
-
-			input[type="submit"].special:hover,
-			input[type="reset"].special:hover,
-			input[type="button"].special:hover,
-			button.special:hover,
-			.button.special:hover {
-				background-color: white;
-			}
-
-			input[type="submit"].special:active,
-			input[type="reset"].special:active,
-			input[type="button"].special:active,
-			button.special:active,
-			.button.special:active {
-				background-color: #ededed;
 			}
 
 /* Flex */
@@ -2496,24 +2496,6 @@
 				width: 100%;
 			}
 
-	.video-wrapper {
-		position: relative;
-		padding-bottom: 56.25%;
-	/* 16:9 */
-
-		padding-top: 25px;
-		height: 0;
-	}
-
-		.video-wrapper iframe, .video-wrapper object, .video-wrapper embed {
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-		}
-
-/* List */
 
 	ol {
 		list-style: decimal;
@@ -2691,10 +2673,6 @@
 	}
 
 /* Section/Article */
-
-	section.special, article.special {
-		text-align: center;
-	}
 
 	header p {
 		position: relative;
@@ -2976,15 +2954,6 @@
 						color: #bfbfbf;
 					}
 
-				.wrapper.style1 input[type="submit"].special,
-				.wrapper.style1 input[type="reset"].special,
-				.wrapper.style1 input[type="button"].special,
-				.wrapper.style1 button.special,
-				.wrapper.style1 .button.special {
-					background-color: #000;
-					color: #fafafa !important;
-				}
-
 			.wrapper.style1 label {
 				color: #000;
 			}
@@ -3146,31 +3115,6 @@
 					.wrapper.style2 button.alt.icon:before,
 					.wrapper.style2 .button.alt.icon:before {
 						color: #67b2e4;
-					}
-
-				.wrapper.style2 input[type="submit"].special,
-				.wrapper.style2 input[type="reset"].special,
-				.wrapper.style2 input[type="button"].special,
-				.wrapper.style2 button.special,
-				.wrapper.style2 .button.special {
-					background-color: #fafafa;
-					color: #000 !important;
-				}
-
-					.wrapper.style2 input[type="submit"].special:hover,
-					.wrapper.style2 input[type="reset"].special:hover,
-					.wrapper.style2 input[type="button"].special:hover,
-					.wrapper.style2 button.special:hover,
-					.wrapper.style2 .button.special:hover {
-						background-color: white;
-					}
-
-					.wrapper.style2 input[type="submit"].special:active,
-					.wrapper.style2 input[type="reset"].special:active,
-					.wrapper.style2 input[type="button"].special:active,
-					.wrapper.style2 button.special:active,
-					.wrapper.style2 .button.special:active {
-						background-color: #ededed;
 					}
 
 			.wrapper.style2 label {
@@ -3736,7 +3680,7 @@
 			font-size: 7em;
 			margin-bottom: .25em;
 			color: #FFF;
-      font-family: Tangerine;
+      font-family: Pacifico;
 		}
 
 		#banner-contact h3 {
