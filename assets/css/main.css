@@ -2507,6 +2507,9 @@
 				width: 100%;
 			}
 
+.noshadow{
+	box-shadow: none;
+}
 
 	ol {
 		list-style: decimal;
