@@ -42,6 +42,17 @@
 	body {
 		-webkit-text-size-adjust: none;
 	}
+
+.our-coffee-images{
+	margin: 50px auto 0 auto;
+	width: 70%;
+}
+
+.our-coffee-images img{
+	width: 30%;
+}
+
+
   .machine-slider-image img {
       margin: 0 auto;
   }
@@ -2838,7 +2849,7 @@
 			margin: 0 auto;
 			width: 80em;
 			position: relative;
-			z-index: 99;
+
 		}
 
 		.wrapper header {
@@ -3036,6 +3047,8 @@
 			background-color: #492a13;
 			color: #f1ceae;
 		}
+
+
 
 			.wrapper.style2 input, .wrapper.style2 select, .wrapper.style2 textarea {
 				color: #fff;
